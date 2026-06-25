@@ -1,4 +1,4 @@
-﻿import type { Metadata } from "next";
+import type { Metadata } from "next";
 import { DM_Sans, Space_Mono } from "next/font/google";
 import "./globals.css";
 
@@ -14,7 +14,7 @@ const spaceMono = Space_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Priyo Launch | Global Company Formation",
+  title: "Priyo Horizon | Global Company Formation",
   description:
     "Form your LLC, get your EIN, and prepare your Priyo Pay fintech business account in one guided platform.",
 };

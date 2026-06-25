@@ -1,4 +1,4 @@
-﻿import type {
+import type {
   BusinessModel,
   CustomerRegion,
   FormationState,
@@ -8,8 +8,8 @@
   RevenueBand,
 } from "./types";
 
-export const LOCAL_DRAFT_KEY = "priyo-launch:draft:v1";
-export const LOCAL_SUBMISSION_KEY = "priyo-launch:last-submitted";
+export const LOCAL_DRAFT_KEY = "priyo-horizon:draft:v1";
+export const LOCAL_SUBMISSION_KEY = "priyo-horizon:last-submitted";
 
 export const PLAN_DETAILS: Record<
   LaunchPlan,
@@ -150,7 +150,7 @@ export const FAQ_ITEMS = [
   {
     question: "Can non-US residents open an LLC?",
     answer:
-      "Yes. Priyo Launch is designed for global founders and the flow is tailored for non-US applicants who want a U.S. entity without relocating.",
+      "Yes. Priyo Horizon is designed for global founders and the flow is tailored for non-US applicants who want a U.S. entity without relocating.",
   },
   {
     question: "Do I need a Social Security Number?",
@@ -165,7 +165,7 @@ export const FAQ_ITEMS = [
   {
     question: "Can I open Stripe with this LLC?",
     answer:
-      "Yes. Priyo Launch positions the entity and documentation to help founders become Stripe and PayPal ready once the business is formed.",
+      "Yes. Priyo Horizon positions the entity and documentation to help founders become Stripe and PayPal ready once the business is formed.",
   },
   {
     question: "How does the Priyo Pay account work?",

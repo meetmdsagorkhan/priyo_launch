@@ -1,4 +1,4 @@
-﻿import { GlassCard } from "./glass-card";
+import { GlassCard } from "./glass-card";
 
 export function ComparisonTable({
   rows,
@@ -13,7 +13,7 @@ export function ComparisonTable({
             <div className="px-5 py-4">Capability</div>
             <div className="px-5 py-4">Stripe Atlas</div>
             <div className="px-5 py-4">Firstbase</div>
-            <div className="bg-primary/10 px-5 py-4 text-primary">Priyo Launch</div>
+            <div className="bg-primary/10 px-5 py-4 text-primary">Priyo Horizon</div>
           </div>
           {rows.map((row) => (
             <div key={row.label} className="grid grid-cols-[1.2fr_repeat(3,1fr)] border-b border-white/6 text-sm text-muted last:border-b-0">

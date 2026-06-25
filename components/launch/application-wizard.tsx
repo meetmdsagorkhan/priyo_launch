@@ -127,7 +127,7 @@ export function ApplicationWizard({ initialPlan }: { initialPlan: LaunchPlan }) 
             const payload = await response.json();
             if (mounted) {
               reset(normalizeDraft(payload.values, initialPlan));
-              setSaveMessage("Draft restored from your secure Priyo Launch record.");
+              setSaveMessage("Draft restored from your secure Priyo Horizon record.");
             }
           } else if (mounted) {
             reset(normalizeDraft(draft, initialPlan));
@@ -184,7 +184,7 @@ export function ApplicationWizard({ initialPlan }: { initialPlan: LaunchPlan }) 
           throw new Error(payload.error || "Autosave failed.");
         }
         setSaveState("saved");
-        setSaveMessage("Draft synced to your secure Priyo Launch record.");
+        setSaveMessage("Draft synced to your secure Priyo Horizon record.");
       } catch (error) {
         setSaveState("error");
         setSaveMessage(error instanceof Error ? error.message : "Autosave failed.");
@@ -456,7 +456,7 @@ export function ApplicationWizard({ initialPlan }: { initialPlan: LaunchPlan }) 
       <div className="flex min-h-[70vh] items-center justify-center">
         <div className="glass-panel flex items-center gap-3 px-6 py-4 text-sm text-white">
           <Loader2 className="h-5 w-5 animate-spin text-primary" />
-          Loading your Priyo Launch draft...
+          Loading your Priyo Horizon draft...
         </div>
       </div>
     );
@@ -468,7 +468,7 @@ export function ApplicationWizard({ initialPlan }: { initialPlan: LaunchPlan }) 
         <div className="glass-panel sticky top-4 z-30 mb-8 p-4 sm:p-5">
           <div className="flex flex-col gap-4 lg:flex-row lg:items-center lg:justify-between">
             <div>
-              <p className="mono-label mb-2">Priyo Launch application</p>
+              <p className="mono-label mb-2">Priyo Horizon application</p>
               <h1 className="text-2xl font-semibold text-white">Atlas-style onboarding for global founders</h1>
             </div>
             <div className="rounded-2xl border border-white/8 bg-white/[0.03] px-4 py-3 text-right">
@@ -722,7 +722,7 @@ export function ApplicationWizard({ initialPlan }: { initialPlan: LaunchPlan }) 
                     <div className="space-y-5">
                       <div className="rounded-[24px] border border-primary/20 bg-primary/10 p-5 text-sm text-slate-100">
                         <div className="flex items-center gap-3 text-primary"><Sparkles className="h-5 w-5" /> Review everything before submission</div>
-                        <p className="mt-3 text-muted">You can jump back to any section to edit details before Priyo Launch receives your application.</p>
+                        <p className="mt-3 text-muted">You can jump back to any section to edit details before Priyo Horizon receives your application.</p>
                       </div>
                       <div className="grid gap-4 xl:grid-cols-2">
                         {reviewSections.map((section, index) => (

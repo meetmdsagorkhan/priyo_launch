@@ -60,7 +60,7 @@ export function DashboardShell({ initialDraftToken }: { initialDraftToken?: stri
   return (
     <div className="space-y-6">
       <GlassCard className="p-8">
-        <p className="mono-label mb-3">Priyo Launch dashboard</p>
+        <p className="mono-label mb-3">Priyo Horizon dashboard</p>
         <h1 className="text-4xl font-semibold text-white">{payload.values.company.primaryLLCName || "Your company application"}</h1>
         <p className="mt-4 max-w-2xl text-lg text-muted">Status: <span className="text-primary">{payload.status.replace("_", " ")}</span>. Priyo will coordinate formation, EIN support, and any requested banking setup from here.</p>
       </GlassCard>

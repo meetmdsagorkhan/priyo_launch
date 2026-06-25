@@ -1,4 +1,4 @@
-﻿import Link from "next/link";
+import Link from "next/link";
 import {
   ArrowRight,
   Banknote,
@@ -83,7 +83,7 @@ export default function LaunchLandingPage() {
           <div>
             <div className="mb-2 flex items-center gap-3">
               <span className="h-2.5 w-2.5 rounded-full bg-primary shadow-[0_0_18px_rgba(0,230,138,0.65)]" />
-              <p className="mono-label !mb-0">Priyo Launch</p>
+              <p className="mono-label !mb-0">Priyo Horizon</p>
             </div>
             <p className="text-sm text-muted">Global company formation with integrated fintech banking setup.</p>
           </div>
@@ -183,7 +183,7 @@ export default function LaunchLandingPage() {
         </div>
       </Section>
 
-      <Section eyebrow="The problem" title="Starting a U.S. company is complicated for global founders" description="Priyo Launch turns fragmented formation, tax, and banking tasks into one clear experience.">
+      <Section eyebrow="The problem" title="Starting a U.S. company is complicated for global founders" description="Priyo Horizon turns fragmented formation, tax, and banking tasks into one clear experience.">
         <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-4">
           {problemPoints.map((point) => (
             <GlassCard key={point} className="p-5 transition duration-300 hover:-translate-y-1">
@@ -196,7 +196,7 @@ export default function LaunchLandingPage() {
         </div>
       </Section>
 
-      <Section eyebrow="The solution" title="Priyo Launch handles everything" description="Formation, EIN support, banking readiness, and operating documents in one coordinated flow.">
+      <Section eyebrow="The solution" title="Priyo Horizon handles everything" description="Formation, EIN support, banking readiness, and operating documents in one coordinated flow.">
         <div className="grid gap-5 lg:grid-cols-[1.1fr_0.9fr]">
           <GlassCard className="p-6 sm:p-8">
             <p className="mono-label mb-4">Why it feels faster</p>
@@ -218,7 +218,7 @@ export default function LaunchLandingPage() {
                   <Icon className="h-5 w-5" />
                 </div>
                 <h3 className="mt-4 text-xl font-semibold text-white">{item.title}</h3>
-                <p className="mt-2 text-sm leading-6 text-muted">Handled inside the same Priyo Launch workflow so founders move faster with fewer vendors.</p>
+                <p className="mt-2 text-sm leading-6 text-muted">Handled inside the same Priyo Horizon workflow so founders move faster with fewer vendors.</p>
               </GlassCard>
             );
           })}
@@ -275,7 +275,7 @@ export default function LaunchLandingPage() {
         </div>
       </Section>
 
-      <Section eyebrow="Comparison" title="Why Priyo Launch stands out" description="The differentiator is simple: company formation and fintech account readiness live in the same product.">
+      <Section eyebrow="Comparison" title="Why Priyo Horizon stands out" description="The differentiator is simple: company formation and fintech account readiness live in the same product.">
         <ComparisonTable rows={COMPARISON_ROWS} />
       </Section>
 

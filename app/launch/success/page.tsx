@@ -1,4 +1,4 @@
-﻿import Link from "next/link";
+import Link from "next/link";
 import { ArrowRight, CheckCircle2, MailCheck, ShieldCheck, Sparkles } from "lucide-react";
 
 import { GlassCard } from "@/components/launch/glass-card";
@@ -18,7 +18,7 @@ export default function SuccessPage({ searchParams }: { searchParams?: { draft?:
             <p className="mono-label mb-4">Application submitted</p>
             <h1 className="text-4xl font-semibold text-white">Your application has been submitted successfully.</h1>
             <p className="mt-5 max-w-2xl text-lg leading-8 text-muted">
-              Priyo Launch has your company formation request. Our team will review your details, begin LLC formation, and keep you updated by email.
+              Priyo Horizon has your company formation request. Our team will review your details, begin LLC formation, and keep you updated by email.
             </p>
             <div className="mt-6 rounded-2xl border border-white/10 bg-black/15 px-4 py-3 font-mono text-[11px] uppercase tracking-[0.28em] text-primary">
               Draft reference: {draftToken}
